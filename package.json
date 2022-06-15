@@ -1,0 +1,50 @@
+{
+  "name": "ffmpeg-manager",
+  "version": "1.0.0",
+  "description": "module to control ffmpeg ",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel index.js --out-dir dist",
+    "dev": "nodemon --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackSpacePeru/ffmpeg-manager.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackSpacePeru/ffmpeg-manager/issues"
+  },
+  "homepage": "https://github.com/HackSpacePeru/ffmpeg-manager#readme",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "dotenv": "^8.0.0",
+    "os": "^0.1.1",
+    "restify": "^8.3.3",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-router": "^0.5.1",
+    "signale": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "9.0.0",
+    "eslint": "5.14.1",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "4.1.0",
+    "eslint-config-wesbos": "0.0.19",
+    "eslint-plugin-html": "5.0.3",
+    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-jsx-a11y": "6.2.1",
+    "eslint-plugin-prettier": "3.0.1",
+    "eslint-plugin-react": "7.12.4",
+    "eslint-plugin-react-hooks": "1.3.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "prettier": "1.16.4"
+  }
+}
